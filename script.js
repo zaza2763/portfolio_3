@@ -26,6 +26,8 @@ document.addEventListener('click',(e) =>{
 
   }else if(type == 'copy'){
     copyText(e.target.textContent)
+  }else if(type == 'colorBox'){
+    randomColor()
   }
 })
 
